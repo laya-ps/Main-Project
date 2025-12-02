@@ -1,0 +1,54 @@
+.Nav
+{
+    height: 70px;
+    width:100%;
+    /* background-color: rgb(1, 1, 33); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+.logoMain{
+    height: 50px;
+    object-fit: contain;
+    width: 120px;
+}
+.navbutton{
+    height: 70px;
+    width: 40%;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    margin-right: 5px;
+
+}
+
+.button1{
+    width: 200px;
+    font-size: 17px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color:transparent ;
+    color: rgb(214, 206, 206);
+    outline: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center ;
+}
+.nn:hover{
+    background-color:rgba(90, 83, 83, 0.8);
+    color: black;
+}
+.navname{
+    width: 80px;
+    height:50px;
+    background: url('../../../Assets/banner.png');
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 10px;
+    font-size: 28px;
+} 

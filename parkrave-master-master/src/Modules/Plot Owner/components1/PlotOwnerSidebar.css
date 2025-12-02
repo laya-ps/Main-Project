@@ -1,0 +1,40 @@
+.posidebar {
+  width: 250px;
+  background-color:rgba(186, 144, 40, 0.919);;
+  color: white;
+  /* padding: 20px; */
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+}
+
+.posidebar h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.posidebar ul {
+  list-style: none;
+  /* padding: 0; */
+}
+
+.posidebar ul li {
+  cursor: pointer;
+  margin: 10px 0;
+  padding: 8px;
+  text-align: start;
+  /* padding-left: 40px; */
+}
+
+.posidebar ul li:hover {
+  background-color:rgba(175, 150, 85, 0.919);
+  border-radius: 4px;
+}
+
+.popage-content {
+  background-color: rgba(186, 144, 40, 0.919);
+  flex-grow: 1;
+}

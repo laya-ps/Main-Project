@@ -1,0 +1,44 @@
+/* src/App.css or src/components/Sidebar.css */
+.sidebar {
+  width: 250px;
+  background-color: rgba(186, 144, 40, 0.919);
+  ;
+  color: white;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* padding: 20px; */
+}
+
+.sidebar h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.sidebar ul {
+  list-style: none;
+  /* padding: 0; */
+}
+
+.sidebar ul li {
+  cursor: pointer;
+  margin: 10px 0;
+  padding: 8px;
+  text-align: start;
+  /* padding-left: 40px; */
+}
+
+.sidebar ul li:hover {
+  background-color: rgb(197, 196, 186);
+
+  border-radius: 4px;
+}
+
+.page-content {
+  padding: 20px;
+  background-color: #fff;
+  flex-grow: 1;
+  margin-left: 250px;
+}

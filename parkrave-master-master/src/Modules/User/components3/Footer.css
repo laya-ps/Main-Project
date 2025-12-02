@@ -1,0 +1,8 @@
+.Footer{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(186, 144, 40, 0.919);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,156 @@
+.head1{
+    color: rgba(186, 144, 40, 0.919);
+
+    font-size: 29px;
+    font-weight: 700;
+}
+.font1{
+color:  rgba(186, 144, 40, 0.919);
+font-size: 15px;
+font-weight: 700;
+margin-bottom: 10px;
+}
+.nn{
+width: 150px;
+height: 35px;
+background-color:rgba(186, 144, 40, 0.919);
+margin-bottom: 10px;
+border: none;
+outline:none;
+border-radius: 5px;
+padding: 5px;
+color:rgba(63, 65, 69, 0.941);
+
+
+}
+.img1{
+width: 20px;
+height: 25px;
+object-fit: contain;
+}
+.img2{
+width: 20px;
+height: 25px;
+object-fit: contain;
+}
+.img3{
+    width: 18px;
+height: 80px;
+object-fit: contain;
+}
+.img4
+{
+    width: 15px;
+    height: 80px;
+    object-fit: contain;   
+}
+
+.container{
+height: 100vh;
+/* background-color: rgb(48, 143, 158); */
+background: 
+    linear-gradient(rgba(42, 39, 32, 0.8), rgba(91, 78, 15, 0.59)), /* Gradient overlay */
+    url(./Assets/haha.png);    background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+}
+.bb1{
+width: 250px;
+height: 35px;
+background-color: rgba(208, 212, 212, 0.69);
+margin-bottom: 10px;
+border: none;
+outline:none;
+border-radius: 5px;
+padding: 5px;
+color:rgb(8, 101, 127);
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+.ll{
+
+
+display: flex;
+justify-content: center;
+align-items: center;   
+flex-direction: column;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+border-radius: 10px;
+box-shadow: 1px 1px 7px 4px rgba(71, 75, 47, 0.138);
+background-color: rgba(70, 70, 63, 0.481);
+height: 550px;
+width: 400px;
+backdrop-filter: blur(2px);
+-webkit-backdrop-filter: blur(2px);
+}
+.dd{
+    width: 250px;
+    height: 35px;
+    background-color: rgba(208, 212, 212, 0.69);
+    margin-bottom: 10px;
+    border: none;
+    outline:none;
+    border-radius: 5px;
+    padding: 5px;
+    color:rgb(8, 101, 127);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.cc1{
+
+}
+.main1{
+width: 70%;
+/* background-color: yellow; */
+display: flex;
+justify-content: center;
+align-items: flex-start;   
+flex-direction: column;
+}
+.button1{
+width: 250px;
+/* background-color: yellow; */
+/* padding: 5px; */
+padding-left: 0;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+.bbb1{
+width: 80%;
+height: 90%;
+border: none;
+outline: none;
+background-color: rgba(190, 199, 199, 0.104);
+
+margin-left: 5px;
+}
+.plot-owner-section {
+    margin: 20px 0;
+}
+
+.radio-group {
+    display: flex;
+    gap: 10px;
+}
+
+.radio-group label {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.nn:hover{
+    color: rgb(255, 255, 255);
+    background-color:rgb(183, 133, 7);
+
+}
+
+

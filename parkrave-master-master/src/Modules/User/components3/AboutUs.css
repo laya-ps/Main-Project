@@ -1,0 +1,112 @@
+/* General styles */
+.about-us-container {
+    font-family: 'Arial', sans-serif;
+    width: 100%;
+    margin: 0;
+    /* padding: 20px; */
+    background-color: #f4f4f4;
+    color: #6f674ad8;
+  }
+  .AboutNav{
+    /* background-color: rgba(186, 144, 40, 0.919); */
+    background-color:#1e1e1e;
+  }
+  .about-us-header {
+    /* background-color:rgba(186, 144, 40, 0.919); */
+    background-color:#1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .about-us-header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  .about-us-header p {
+    font-size: 1.2em;
+    padding: 0 20px;
+  }
+  
+  .h2 {
+    /* color:rgba(186, 144, 40, 0.919); */
+    color:#1e1e1e;
+    font-size: 2em;
+    margin-top: 40px;
+  }
+  
+  section {
+    padding: 40px 20px;
+  }
+  .about-us-mission, .about-us-how-it-works, .about-us-vision {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(100, 92, 71, 0.656);
+    margin: 20px 20px 0;
+    padding: 20px 40px;
+    transition: transform 0.11s ease-in-out; /* Correct transition syntax */
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:18px;
+    font-weight: 550;
+    font-display:unset;
+    text-align: left;
+    margin-bottom: 15px;
+    
+  }
+  
+  
+  .about-us-mission:hover, .about-us-how-it-works:hover, .about-us-vision:hover {
+    transform: scale(1.01);
+  }
+  
+  
+  .about-us-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+  }
+  
+  .about-us-footer a {
+    color: #969300;
+    text-decoration: none;
+  }
+  
+  .about-us-footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .team-member {
+    text-align: center;
+    max-width: 220px;
+    margin: 10px;
+  }
+  
+  .team-member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .team-member h3 {
+    font-size: 1.2em;
+    color: rgba(186, 144, 40, 0.919);
+  }
+  
+  .team-member p {
+    font-size: 1em;
+    color: #666;
+  }
+  
