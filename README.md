@@ -81,7 +81,6 @@ Main-Project/
     │   ├── Components/
     │   ├── Modules/  (Admin / User / Plot Owner)
     │   └── App.js
----
 
 ⚙️ Installation & Setup
 
