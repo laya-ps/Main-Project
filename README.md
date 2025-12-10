@@ -66,6 +66,7 @@ QR Code	QRCode React Library
 
 
 📌 Project Structure  
+`
 Main-Project/
 │
 ├── backend/
@@ -84,7 +85,7 @@ Main-Project/
 │       │   ├── User/
 │       │   └── Plot Owner/
 │       └── App.js
-
+`q
 ⚙️ Installation & Setup
 
 🔹 Backend Setup
